@@ -14,7 +14,8 @@ for the first run server, it will create table with AutoMigration feature
 
     db.AutoMigrate(entity.User{}, entity.Category{}, entity.Book{}, entity.Loan{}, entity.FinePayment{})
 
-## You can use the files contained in the root folder with the extension (req _ *. Http) and make requests using the REST Client plugin on VS Code
+## Usage API
+You can use the files contained in the root folder with the extension (req _ *. Http) and make requests using the REST Client plugin on VS Code
 * **req_register.http** : register new user
 * **req_login.http** : login user
 * **req_get_profile.http** : get user profile (require Authorization)
