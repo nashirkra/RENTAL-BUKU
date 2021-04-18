@@ -26,7 +26,7 @@ func NewUserService(userRepo repository.UserRepository) UserService {
 
 func (serv *userService) Update(user dto.UserUpdate) entity.User {
 	userToUpdate := entity.User{}
-	err := smapping.FillStruct(&userToUpdate, smapping.MapFields(user))
+	err := smapping.FillStruct(&userToUpdate, smapping.MapFields(&user))
 	if err != nil {
 		log.Fatalf("Failed to map %v", err)
 	}
