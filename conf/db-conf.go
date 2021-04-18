@@ -2,6 +2,7 @@ package conf
 
 import (
 	"fmt"
+	"log"
 	"os"
 
 	"github.com/joho/godotenv"
@@ -25,12 +26,17 @@ func SetupDBConn() *gorm.DB {
 	// dont forget to adjust your port
 	dsn := fmt.Sprintf("%s:%s@tcp(%s:3310)/%s?charset=utf8&parseTime=True&loc=Local", dbUser, dbPass, dbHost, dbName)
 	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
+
 	if err != nil {
+		log.Fatalf("Error: %v", err)
 		panic("Failed to create a connection to Database")
 	}
 	// model here
-
-	db.AutoMigrate(&entity.User{})
+	errMigration := db.AutoMigrate(entity.User{}, entity.Category{}, entity.Book{}, entity.Loan{}, entity.FinePayment{})
+	if errMigration != nil && db.Error != nil {
+		//We have an error
+		log.Fatalf("Error: %v", db.Error)
+	}
 	return db
 }
 

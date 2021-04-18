@@ -17,4 +17,5 @@ type Register struct {
 	DeletedAt       gorm.DeletedAt
 	CreatedAt       time.Time
 	UpdatedAt       time.Time
+	Token           string `json:"token,omitempty"`
 }

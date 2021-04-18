@@ -18,6 +18,7 @@ type UserRepository interface {
 	IsDuplicateEmail(email string) (tx *gorm.DB)
 	FindByEmail(email string) entity.User
 	ProfileUser(userID string) entity.User
+	Create(user entity.User) interface{}
 }
 
 type userConnection struct {
@@ -76,6 +77,11 @@ func (db *userConnection) ProfileUser(userID string) entity.User {
 	var user entity.User
 	db.connection.Find(&user, userID)
 	return user
+}
+
+func (db *userConnection) Create(user entity.User) interface{} {
+	res := db.connection.Migrator().CreateTable(&user)
+	return res
 }
 
 func hashAndSalt(pwd []byte) string {

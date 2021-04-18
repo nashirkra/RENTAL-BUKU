@@ -11,15 +11,15 @@ import (
  */
 type User struct {
 	ID              uint64 `gorm:"primary_key:auto_increment" json:"id"`
-	Name            string `gorm:"type:varchar(255)" json:"name"`
-	Address         string `gorm:"type:text" json:"address"`
-	Photo           string `gorm:"type:text" json:"photo"`
-	Email           string `gorm:"uniqueIndex:varchar(255)" json:"email"`
+	Name            string `gorm:"type:varchar(255);not null" json:"name"`
+	Address         string `gorm:"not null" json:"address"`
+	Photo           string `json:"photo"`
+	Email           string `gorm:"uniqueIndex;type:varchar(255);not null" json:"email"`
 	EmailVerifiedAt time.Time
 	Password        string `gorm:"->;<-;not null" json:"-"`
 	Role            string `gorm:"type:ENUM('admin','member');not null" json:"role"`
 	DeletedAt       gorm.DeletedAt
 	CreatedAt       time.Time
 	UpdatedAt       time.Time
-	Token           string
+	Token           string `json:"token,omitempty"`
 }

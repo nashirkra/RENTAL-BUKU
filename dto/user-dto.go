@@ -1,8 +1,9 @@
 package dto
 
 import (
-	"gorm.io/gorm"
 	"time"
+
+	"gorm.io/gorm"
 )
 
 type UserUpdate struct {
