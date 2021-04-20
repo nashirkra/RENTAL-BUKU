@@ -15,6 +15,7 @@ type AuthService interface {
 	CreateUser(user dto.Register) entity.User
 	FindByEmail(email string) entity.User
 	IsDuplicateEmail(email string) bool
+	UserRole(userID string) string
 }
 
 type authService struct {
@@ -56,6 +57,11 @@ func (serv *authService) FindByEmail(email string) entity.User {
 func (serv *authService) IsDuplicateEmail(email string) bool {
 	res := serv.userRepository.IsDuplicateEmail(email)
 	return !(res.Error == nil)
+}
+
+func (serv *authService) UserRole(userID string) string {
+	res := serv.userRepository.ProfileUser(userID)
+	return res.Role
 }
 
 func comparedPassword(hashedPwd string, plainPwd []byte) bool {

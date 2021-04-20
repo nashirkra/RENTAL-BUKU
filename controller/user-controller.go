@@ -8,11 +8,13 @@ import (
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
 	"github.com/nashirkra/RENTAL-BUKU/dto"
+	"github.com/nashirkra/RENTAL-BUKU/entity"
 	"github.com/nashirkra/RENTAL-BUKU/helper"
 	"github.com/nashirkra/RENTAL-BUKU/service"
 )
 
 type UserController interface {
+	All(context *gin.Context)
 	Update(context *gin.Context)
 	Profile(context *gin.Context)
 }
@@ -52,6 +54,24 @@ func (c *userController) Update(context *gin.Context) {
 	u := c.userService.Update(userUpdate)
 	res := helper.BuildResponse(true, "OK!", u)
 	context.JSON(http.StatusOK, res)
+}
+
+func (c *userController) All(context *gin.Context) {
+	authHeader := context.GetHeader("Authorization")
+	token, errToken := c.jwtService.ValidateToken(authHeader)
+	if errToken != nil {
+		panic(errToken.Error())
+	}
+	claims := token.Claims.(jwt.MapClaims)
+	userID := fmt.Sprintf("%v", claims["user_id"])
+	if c.userService.UserRole(userID) != "admin" {
+		response := helper.BuildErrorResponse("You dont have permission", "You are not Administrator", helper.EmptyObj{})
+		context.JSON(http.StatusForbidden, response)
+	} else {
+		var users []entity.User = c.userService.All()
+		res := helper.BuildResponse(true, "OK", users)
+		context.JSON(http.StatusOK, res)
+	}
 }
 
 func (c *userController) Profile(context *gin.Context) {

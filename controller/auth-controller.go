@@ -1,9 +1,11 @@
 package controller
 
 import (
+	"fmt"
 	"net/http"
 	"strconv"
 
+	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
 	"github.com/nashirkra/RENTAL-BUKU/dto"
 	"github.com/nashirkra/RENTAL-BUKU/entity"
@@ -46,7 +48,7 @@ func (c *authController) Login(ctx *gin.Context) {
 	if v, ok := authResult.(entity.User); ok {
 		generatedToken := c.jwtService.GenerateToken(strconv.FormatUint(v.ID, 10))
 		v.Token = generatedToken
-		response := helper.BuildResponse(true, "OK!", v)
+		response := helper.BuildResponse(true, "OK! "+c.getUserIDByToken(v.Token)+" : "+c.getRoleByToken(v.Token), v)
 		ctx.JSON(http.StatusOK, response)
 		return
 	}
@@ -73,4 +75,24 @@ func (c *authController) Register(ctx *gin.Context) {
 		response := helper.BuildResponse(true, "OK!", createdUser)
 		ctx.JSON(http.StatusCreated, response)
 	}
+}
+
+func (c *authController) getUserIDByToken(token string) string {
+	aToken, err := c.jwtService.ValidateToken(token)
+	if err != nil {
+		panic(err.Error())
+	}
+	claims := aToken.Claims.(jwt.MapClaims)
+	id := fmt.Sprintf("%v", claims["user_id"])
+	return id
+}
+
+func (c *authController) getRoleByToken(token string) string {
+	aToken, err := c.jwtService.ValidateToken(token)
+	if err != nil {
+		panic(err.Error())
+	}
+	claims := aToken.Claims.(jwt.MapClaims)
+	id := fmt.Sprintf("%v", claims["user_id"])
+	return c.authService.UserRole(id)
 }

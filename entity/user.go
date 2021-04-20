@@ -19,7 +19,7 @@ type User struct {
 	Password        string    `gorm:"->;<-;not null" json:"-"`
 	Role            string    `gorm:"type:ENUM('admin','member');not null" json:"role"`
 	DeletedAt       gorm.DeletedAt
-	CreatedAt       time.Time `gorm:"<-:create"`
-	UpdatedAt       time.Time
-	Token           string `json:"token,omitempty"`
+	CreatedAt       time.Time `gorm:"<-:create;not null"`
+	UpdatedAt       time.Time `gorm:"not null"`
+	Token           string    `json:"token,omitempty"`
 }

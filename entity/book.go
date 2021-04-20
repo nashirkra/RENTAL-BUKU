@@ -15,11 +15,11 @@ type Book struct {
 	Description string `gorm:"type:text" json:"description"`
 	Author      string `gorm:"type:text" json:"author"`
 	Year        uint64 `gorm:"type:year" json:"year"`
-	CategoryID  uint64 `gorm:"not null" json:"-"`
+	CategoryID  uint64 `gorm:"not null" json:"category_id"`
 	Stock       uint64 `gorm:"type:int" json:"stock"`
 	Status      uint   `gorm:"type:ENUM('1','0');not null" json:"status"`
 	DeletedAt   gorm.DeletedAt
-	CreatedAt   time.Time
-	UpdatedAt   time.Time
-	Category    Category `gorm:"foreignkey:CategoryID;constraint:onUpdate:RESTRICT;onDelete:RESTRICT" json:"category"`
+	CreatedAt   time.Time `gorm:"<-:create;not null"`
+	UpdatedAt   time.Time `gorm:"not null"`
+	Category    Category  `gorm:"foreignkey:CategoryID;constraint:onUpdate:RESTRICT;onDelete:RESTRICT" json:"category"`
 }
