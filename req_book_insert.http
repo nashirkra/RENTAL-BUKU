@@ -1,0 +1,764 @@
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Bikin mading lebih keren",
+    "Description": "Bikin mading lebih keren",
+    "Author": "Pramana Sukmajati/Info komputer",
+    "Year": 2009,
+    "category_id": 4,
+    "Stock": 2,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Ice breaker",
+    "Description": "Ice breaker",
+    "Author": "Adi Soenarno/Penerbit Andi",
+    "Year": 2009,
+    "category_id": 4,
+    "Stock": 3,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Be new you",
+    "Description": "Be new you",
+    "Author": "Izzatul jannah/Eureka",
+    "Year": 2009,
+    "category_id": 4,
+    "Stock": 1,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "100 Hal yang harus ditanyakan sebelum menikah",
+    "Description": "101 Hal yang harus ditanyakan sebelum menikah",
+    "Author": "Susan Piver/Gramedia",
+    "Year": 2009,
+    "category_id": 4,
+    "Stock": 4,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Bikin belajar selezat coklat",
+    "Description": "Bikin belajar selezat coklat",
+    "Author": "Fatan fantastic/Pro-U",
+    "Year": 2009,
+    "category_id": 4,
+    "Stock": 4,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Membaca kepribadian orang",
+    "Description": "Membaca kepribadian orang",
+    "Author": "Gregory Young/Think",
+    "Year": 2009,
+    "category_id": 4,
+    "Stock": 5,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Seni berbicara",
+    "Description": "Seni berbicara",
+    "Author": "Larry king/Gramedia",
+    "Year": 2009,
+    "category_id": 4,
+    "Stock": 2,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Daftar situs beasiswa",
+    "Description": "Daftar situs beasiswa",
+    "Author": "Samuel/Penerbit Andi",
+    "Year": 2009,
+    "category_id": 4,
+    "Stock": 3,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Strategi Pengembangan diri",
+    "Description": "Strategi Pengembangan diri",
+    "Author": "Jen A.Hans/Personal Development Training",
+    "Year": 2009,
+    "category_id": 4,
+    "Stock": 1,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Teknik Persuasi yang Efektif",
+    "Description": "Teknik Persuasi yang Efektif",
+    "Author": "Robert/Interaksara",
+    "Year": 2009,
+    "category_id": 4,
+    "Stock": 2,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Kepemimpinan dan seni berbicara",
+    "Description": "Kepemimpinan dan seni berbicara",
+    "Author": "Kim H.Krisco/Profesional books",
+    "Year": 2009,
+    "category_id": 4,
+    "Stock": 3,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Being happy",
+    "Description": "Being happy",
+    "Author": "Andrew matthews/Gramedia",
+    "Year": 2010,
+    "category_id": 4,
+    "Stock": 1,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "7 Habits of Highly effective teens",
+    "Description": "8 Habits of Highly effective teens",
+    "Author": "Sean Covey/Binarupa aksara",
+    "Year": 2010,
+    "category_id": 4,
+    "Stock": 4,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Don’t sweat the small stuff for teens",
+    "Description": "Don’t sweat the small stuff for teens",
+    "Author": "Richard Carlson/Gramedia",
+    "Year": 2010,
+    "category_id": 4,
+    "Stock": 4,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Kumpulan Senam dan artikel kesehatan",
+    "Description": "Kumpulan Senam dan artikel kesehatan",
+    "Author": "Muslimah/Muslimah",
+    "Year": 2010,
+    "category_id": 4,
+    "Stock": 5,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Trobbing tonight 7",
+    "Description": "Trobbing tonight 8",
+    "Author": "Koi keno/Elexmedia",
+    "Year": 2010,
+    "category_id": 4,
+    "Stock": 2,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Crayon sinchan 46",
+    "Description": "Crayon sinchan 46",
+    "Author": "Yoshito usui/Gramedia",
+    "Year": 2010,
+    "category_id": 4,
+    "Stock": 3,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Crayon sinchan 25",
+    "Description": "Crayon sinchan 25",
+    "Author": "Yoshito usui/Gramedia",
+    "Year": 2011,
+    "category_id": 4,
+    "Stock": 1,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Membaca emosi orang",
+    "Description": "Membaca emosi orang",
+    "Author": "Paul Ekman/Think Jogja",
+    "Year": 2011,
+    "category_id": 4,
+    "Stock": 2,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "usaha aneka katering",
+    "Description": "usaha aneka katering",
+    "Author": "wulan ayodya/Kompas",
+    "Year": 2011,
+    "category_id": 4,
+    "Stock": 3,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Tips menulis dalam bahasa inggris",
+    "Description": "Tips menulis dalam bahasa inggris",
+    "Author": "Rudolf flesch/Dolpin book",
+    "Year": 2011,
+    "category_id": 4,
+    "Stock": 1,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "agar siapa saja mau berubah",
+    "Description": "agar siapa saja mau berubah",
+    "Author": "david j.lieberman/serambi",
+    "Year": 2011,
+    "category_id": 4,
+    "Stock": 4,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "jurus jitu membuka usaha restoran",
+    "Description": "jurus jitu membuka usaha restoran",
+    "Author": "eka dharma pranoto/penerbit andi",
+    "Year": 2011,
+    "category_id": 4,
+    "Stock": 4,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "spss 13.0 terapan riset parametrik",
+    "Description": "spss 13.0 terapan riset parametrik",
+    "Author": "triton/penerbit andi",
+    "Year": 2011,
+    "category_id": 4,
+    "Stock": 5,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Quantum learning",
+    "Description": "Quantum learning",
+    "Author": "bobbi de porter/Kaifa for teens",
+    "Year": 2011,
+    "category_id": 4,
+    "Stock": 2,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "variasi kue semprit",
+    "Description": "variasi kue semprit",
+    "Author": "saji/pt. media boga utama",
+    "Year": 2011,
+    "category_id": 4,
+    "Stock": 3,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "romantic intelegence",
+    "Description": "romantic intelegence",
+    "Author": "enigma/enigma",
+    "Year": 2012,
+    "category_id": 4,
+    "Stock": 1,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "roti favorit",
+    "Description": "roti favorit",
+    "Author": "budi sutomo/puspa terampil",
+    "Year": 2012,
+    "category_id": 4,
+    "Stock": 2,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "edisi khusus spss",
+    "Description": "edisi khusus spss",
+    "Author": "poltak mario/ardana media",
+    "Year": 2012,
+    "category_id": 4,
+    "Stock": 3,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Pengantar psikologi klinis",
+    "Description": "Pengantar psikologi klinis",
+    "Author": "Suprapti Slamet/UIP",
+    "Year": 2012,
+    "category_id": 4,
+    "Stock": 1,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Kiat jitu mencari kerja",
+    "Description": "Kiat jitu mencari kerja",
+    "Author": "Nurheti yuliarti/Media pressindo",
+    "Year": 2012,
+    "category_id": 4,
+    "Stock": 4,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "jurus untuk jadi cewek kredibel",
+    "Description": "jurus untuk jadi cewek kredibel",
+    "Author": "femi olivia/prime publisher",
+    "Year": 2012,
+    "category_id": 4,
+    "Stock": 4,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Masakan Indonesia",
+    "Description": "Masakan Indonesia",
+    "Author": "Yasa Boga/Gramedia",
+    "Year": 2012,
+    "category_id": 4,
+    "Stock": 5,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "1001 Resep masakan lengkap",
+    "Description": "1002 Resep masakan lengkap",
+    "Author": "Lusiana wijaya/Appolo-surabaya",
+    "Year": 2012,
+    "category_id": 4,
+    "Stock": 2,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Dasar dan arah public relation",
+    "Description": "Dasar dan arah public relation",
+    "Author": "John tondowijodjo/Grasindo",
+    "Year": 2012,
+    "category_id": 4,
+    "Stock": 3,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "kamus bahasa jawa",
+    "Description": "kamus bahasa jawa",
+    "Author": "mangunsuwito/yrama widya",
+    "Year": 2013,
+    "category_id": 4,
+    "Stock": 1,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Kreasi bolu gulung",
+    "Description": "Kreasi bolu gulung",
+    "Author": "Sedap/Nova",
+    "Year": 2013,
+    "category_id": 4,
+    "Stock": 2,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "menggunakan SPSS untuk statistik parametrik",
+    "Description": "menggunakan SPSS untuk statistik parametrik",
+    "Author": "Singgih santoso/Elexmedia",
+    "Year": 2013,
+    "category_id": 4,
+    "Stock": 3,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Tips menulis dalam bahasa inggris",
+    "Description": "Tips menulis dalam bahasa inggris",
+    "Author": "Rudolf flesch/Dolpin book",
+    "Year": 2013,
+    "category_id": 4,
+    "Stock": 1,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "36 jam belajar komputer SPSS 15",
+    "Description": "37 jam belajar komputer SPSS 15",
+    "Author": "Mikael sugianto/Elexmedia",
+    "Year": 2014,
+    "category_id": 4,
+    "Stock": 4,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "100 permainan kreatif",
+    "Description": "101 permainan kreatif",
+    "Author": "vincentius endy/andi offset",
+    "Year": 2014,
+    "category_id": 4,
+    "Stock": 4,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "the art of dealing with people",
+    "Description": "the art of dealing with people",
+    "Author": "les giblin/gramedia",
+    "Year": 2015,
+    "category_id": 4,
+    "Stock": 5,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "skill with people",
+    "Description": "skill with people",
+    "Author": "les giblin/Gramedia",
+    "Year": 2016,
+    "category_id": 4,
+    "Stock": 2,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "gober : world cup",
+    "Description": "gober : world cup",
+    "Author": "/",
+    "Year": 2017,
+    "category_id": 4,
+    "Stock": 3,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "negeri 5 menara",
+    "Description": "negeri 5 menara",
+    "Author": "a.fuadi/Gramedia",
+    "Year": 2018,
+    "category_id": 4,
+    "Stock": 1,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Statistika",
+    "Description": "Statistika",
+    "Author": "Agus irianto/kecana",
+    "Year": 2019,
+    "category_id": 4,
+    "Stock": 2,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "kumpulan resep",
+    "Description": "kumpulan resep",
+    "Author": "Sedap/Gramedia",
+    "Year": 2020,
+    "category_id": 4,
+    "Stock": 3,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "Super mentoring senior",
+    "Description": "Super mentoring senior",
+    "Author": "novi dan ilna/Syaamil",
+    "Year": 2015,
+    "category_id": 4,
+    "Stock": 1,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "tata bahasa inggris",
+    "Description": "tata bahasa inggris",
+    "Author": "erhans/indah-surabaya",
+    "Year": 2017,
+    "category_id": 4,
+    "Stock": 4,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "young top",
+    "Description": "young top",
+    "Author": "billy boen/gagas media",
+    "Year": 2018,
+    "category_id": 4,
+    "Stock": 5,
+    "Status": 1
+  }
+
+###
+POST http://localhost:8080/api/admin/book HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+  {
+    "Title": "menyelami nama Allah yang indah",
+    "Description": "menyelami nama Allah yang indah",
+    "Author": "mahmud samiy/Pustaka hidayah",
+    "Year": 2019,
+    "category_id": 4,
+    "Stock": 2,
+    "Status": 1
+  }
+###
