@@ -3,3 +3,8 @@ Content-Type: application/json
 Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
 
 ###
+GET http://localhost:8080/api/admin/cat/1 HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMSIsImV4cCI6MTYxOTEwMTE4MiwiaWF0IjoxNjE4ODQxOTgyLCJpc3MiOiJuYXNoaXJrcmEifQ.rBLN2SSD5hSVc1drm-tHlffonVTcYHMhdUbxPRP-hO0
+
+###
