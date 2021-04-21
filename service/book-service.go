@@ -18,6 +18,7 @@ type BookService interface {
 	FindByID(bookID uint64) entity.Book
 	IsAllowedToEdit(catID string, bookID uint64) bool
 	UserRole(userID string) string
+	FindBookByCat(catID uint64) []entity.Book
 }
 
 type bookService struct {
@@ -72,4 +73,8 @@ func (service *bookService) IsAllowedToEdit(catID string, bookID uint64) bool {
 func (service *bookService) UserRole(userID string) string {
 	res := service.bookRepository.UserRole(userID)
 	return res
+}
+
+func (service *bookService) FindBookByCat(catID uint64) []entity.Book {
+	return service.bookRepository.FindBookByCat(catID)
 }

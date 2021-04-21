@@ -72,6 +72,7 @@ func main() {
 		// Book handler
 		adminRoutes.GET("/book", bookController.All)
 		adminRoutes.GET("/book/:id", bookController.FindByID)
+		adminRoutes.GET("/book/cat/:id", bookController.FindByCat)
 		adminRoutes.POST("/book", bookController.Insert)
 		adminRoutes.PUT("/book", bookController.Update)
 		adminRoutes.DELETE("/book/:id", bookController.Delete)

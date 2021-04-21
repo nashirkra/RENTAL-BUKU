@@ -11,6 +11,7 @@ type BookRepository interface {
 	DeleteBook(b entity.Book)
 	GetAllBook() []entity.Book
 	FindBookByID(bookID uint64) entity.Book
+	FindBookByCat(catID uint64) []entity.Book
 	UserRole(userID string) string
 }
 
@@ -55,4 +56,10 @@ func (db *bookConnection) UserRole(userID string) string {
 	var user entity.User
 	db.connection.Find(&user, userID)
 	return user.Role
+}
+
+func (db *bookConnection) FindBookByCat(catID uint64) []entity.Book {
+	var books []entity.Book
+	db.connection.Joins("Category").Find(&books, "category_id = ?", catID)
+	return books
 }

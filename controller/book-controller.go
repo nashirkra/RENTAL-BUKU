@@ -16,6 +16,7 @@ import (
 type BookController interface {
 	All(context *gin.Context)
 	FindByID(context *gin.Context)
+	FindByCat(context *gin.Context)
 	Insert(context *gin.Context)
 	Update(context *gin.Context)
 	Delete(context *gin.Context)
@@ -56,6 +57,19 @@ func (c *bookController) FindByID(context *gin.Context) {
 		res := helper.BuildResponse(true, "OK", book)
 		context.JSON(http.StatusOK, res)
 	}
+}
+
+func (c *bookController) FindByCat(context *gin.Context) {
+	catId, err := strconv.ParseUint(context.Param("id"), 0, 0)
+	if err != nil {
+		res := helper.BuildErrorResponse("No param id was found", err.Error(), helper.EmptyObj{})
+		context.AbortWithStatusJSON(http.StatusBadRequest, res)
+		return
+	}
+
+	var books []entity.Book = c.bookService.FindBookByCat(catId)
+	res := helper.BuildResponse(true, "OK", books)
+	context.JSON(http.StatusOK, res)
 }
 
 func (c *bookController) Insert(context *gin.Context) {
